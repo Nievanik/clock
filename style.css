@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(165, 204, 234);
+}
+#clock{
+    width: 60vh;
+    height: 60vh;
+    margin: auto;
+    background: url(img/clock.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 10vh;
+}
+
+.hands{
+    background-color: #000;
+    border-radius: 30%;
+    position: absolute;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.3%;
+    height: 24%;
+    left: 49.35%;
+    top: 26%;
+}
+#minutes{
+    width: 1%;
+    height: 34%;
+    left: 49.5%;
+    top: 16%;
+}
+#seconds{
+    width: .5%;
+    height: 40%;
+    left: 49.8%;
+    top: 10%;
+
+
+}
